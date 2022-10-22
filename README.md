@@ -11,9 +11,13 @@ Este documento tem por objetivo principal mostrar alguns dos recursos mais impor
 # Macro Etapas
 
 1.Captura de dados
+
 2.Limpeza e transformação
+
 3.Análise descritiva
+
 4.Análise de correlação
+
 5.Conclusão
 
 Vamos carregar os pacotes necessários para esta análise.
@@ -143,9 +147,13 @@ A regressão linear é uma técnica estatística que encontra uma equação que 
 Uma análise de regressão requer uma verificação dos pressupostos para que tenhamos resultados não viesados.
 
 1.Relação linear entre as variáveis.
+
 2.Normalidade: os resíduos(erros) seguem uma distribuição normal?
+
 3.Homocedasticidade ou variância constante.
+
 4.Ausência de outliers.
+
 5.Independência dos resíduos.
 
 Primeiramente vamos construir o modelo atráves da função *lm()* do pacote *stats*, informando que queremos como variável preditora ou explicativa (X = diesel) e variável resposta (Y = gasolina). O modelo proposto tem a forma: y^i = β0 + β1xi, para i variando de 1 até n (tamanho da amostra).
